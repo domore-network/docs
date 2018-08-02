@@ -28,14 +28,15 @@ I believe that if it was easy to collaboratively  create a document listing the 
 
 1. Title will be it's own for field
 2. Document body should be rich text editor that allows:
-   a. 3 different types of header
-   b. hyperlinking
-   c. bold
-   d. nested lists (check, ordered, unordered)
+	a. 3 different types of header
+	b. hyperlinking
+	c. bold
+	d. nested lists (check, ordered, unordered)
 3. Each line of nested list needs to allow addition of time and cost
-4. @ symbol will allow user to add member to agreement. 
-   a. If member hasn't been added to agreement yet then pop-up allows user to set rate 
-5. 
+4. Can add a project rate to top column that also has total time and cost
+5. @ symbol will allow user to add member to agreement. 
+	a. If member hasn't been added to agreement yet then pop-up allows user to set rate 
+6. Each member needs to have time and rate 
 
 ### Actions & Reducers
 
