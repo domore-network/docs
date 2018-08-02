@@ -26,8 +26,6 @@ Needs designs
 
 ### Interface
 
-* Library - [Draft.js](https://draftjs.org/)
-
 1. Title will be it's own for field
 2. Document body should be rich text editor that allows:
 	1. 3 different types of header
@@ -51,4 +49,13 @@ Needs designs
 
 1. `projects/project_id/proposals`
 
-### Backend
+## Spikes
+
+Need to test [Draft.js](https://draftjs.org/) to see if it's the correct framework for building a smooth proposal interface.
+
+* [To-do list](https://bitwiser.in/2016/08/31/implementing-todo-list-in-draft-js.html)
+
+*Questions*
+
+_Q:_ Is creating a rich text editor interface being too broad? Maybe markdown would be better?It may be better to really nail the flow of creating a breakdown list with time and costs than making it overly flexible
+_A:_ Don't think I should build a sophisticated text editor. Just need to build a list component and members component. Maybe all controlled from medium/paper style row bar.
